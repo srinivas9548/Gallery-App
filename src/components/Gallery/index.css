@@ -1,0 +1,37 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery-container {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  padding-top: 34px;
+  padding-bottom: 34px;
+}
+
+.selected-image {
+  border-radius: 18px;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: bold;
+  color: #1e293b;
+}
+
+.description {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  color: #64748b;
+}
+
+.thumbnails-list {
+  display: flex;
+  list-style-type: none;
+  padding: 0px;
+}
